@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// Set your brand colors
+$blue: #49C6E5;
+$black: #484538;
+$red: #EF3E36;
+$white: #FFF7F8;
+$green: #9EE493;
+
+// Update Bulma's global variables
+$family-sans-serif: "Open Sans", sans-serif;
+$primary: $blue;
+$danger: $red;
+$success: $green;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass"

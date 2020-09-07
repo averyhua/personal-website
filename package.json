@@ -1,0 +1,27 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "avery personal website",
+  "main": "sass/mystyles.scss",
+  "dependencies": {
+    "bulma": "^0.9.0",
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/averyhua/personal-website.git"
+  },
+  "author": "Avery Hua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/averyhua/personal-website/issues"
+  },
+  "homepage": "https://github.com/averyhua/personal-website#readme"
+}
